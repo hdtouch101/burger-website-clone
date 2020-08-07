@@ -1,0 +1,17 @@
+
+
+.inner-image{
+    /*Styling for the images in section 7*/
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+@media screen and (max-width:980px){
+    /* To create spaces between the images when used on smaller devices in section 7*/
+    .image{
+        margin: 10px 0;
+    }
+}
